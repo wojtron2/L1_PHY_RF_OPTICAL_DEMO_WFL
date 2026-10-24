@@ -1,6 +1,8 @@
 optical input
 
-MCP606
+MCP601 I/P
+MCP606 I/P
+
 BPW34S
 
 
