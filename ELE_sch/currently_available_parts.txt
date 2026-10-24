@@ -1,0 +1,14 @@
+optical input
+
+MCP606
+BPW34S
+
+
+optical output
+
+common laser module
+(consider current source design)
+
+
+
+there are many better parts for such uses, but these I currently got on my desk
