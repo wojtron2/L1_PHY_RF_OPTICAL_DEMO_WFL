@@ -1,7 +1,7 @@
 OPTICAL CIRCUIT
 optical input
 
-MCP601 I/P
+MCP601 I/P  <<  faster and better slew rate
 MCP606 I/P
 
 BPW34S
@@ -9,7 +9,7 @@ BPW34S
 
 optical output
 
-common laser module
+common laser module (1x)
 (consider current source design)
 
 

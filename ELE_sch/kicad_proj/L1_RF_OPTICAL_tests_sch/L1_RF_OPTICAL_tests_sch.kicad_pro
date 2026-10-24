@@ -416,13 +416,21 @@
         "uuid": "8a635b1b-9d9a-4020-b936-45919ee57615"
       }
     ],
-    "used_designators": "D1",
+    "used_designators": "D1,U1",
     "variants": []
   },
   "sheets": [
     [
       "8a635b1b-9d9a-4020-b936-45919ee57615",
       "L1_RF_OPTICAL_tests_sch"
+    ],
+    [
+      "433ebdd7-cb04-40a9-928a-c1b550bb0351",
+      "Optical receiver"
+    ],
+    [
+      "97c22b27-0f33-4417-bc04-8908563f833d",
+      "Optical laser transmitter"
     ]
   ],
   "text_variables": {},
