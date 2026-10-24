@@ -1,7 +1,8 @@
 tasks:
-design input circuit schematics
+design optical input circuit schematics
 
-consider and design laser current source
+design transparent red led high speed driving circuit
+
 
 
 first tests:
@@ -9,3 +10,16 @@ first tests:
 check laser and input circuit bandwidth and frequency with oscilloscope
 
 in order to drive and test it write app to generate stable cycle clock generator signal
+
+
+
+
+
+
+
+
+
+
+///old
+design laser driving circuit
+design laser holder and hold in place optical transmission path, consider safe cover from laser

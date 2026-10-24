@@ -13,8 +13,16 @@ common laser module (1x)
 (consider current source design)
 
 
+irlz44npbf
+ir4427pbf
+irlz44pbf
+
+optical output changed to transparent red led - probably faster than switching power of laser module - to be checked
+ir4427pbf - as a fast gate driver
+
+
 RF CIRCUIT
-CC1101 2x
+CC1101 module with antenna 2x
 
 433MHz receiver and transmitter module (two separate PCBs)
 
