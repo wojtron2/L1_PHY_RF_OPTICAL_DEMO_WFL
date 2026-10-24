@@ -1,3 +1,4 @@
+OPTICAL CIRCUIT
 optical input
 
 MCP601 I/P
@@ -10,6 +11,20 @@ optical output
 
 common laser module
 (consider current source design)
+
+
+RF CIRCUIT
+CC1101 2x
+
+433MHz receiver and transmitter module (two separate PCBs)
+
+
+available and considered microcontrollers:
+STM32H743
+
+ESP32 S3
+
+RP2040
 
 
 
