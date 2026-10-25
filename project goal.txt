@@ -13,7 +13,9 @@ Design of hardware from currently available at hand parts allows fastest possibl
 Project notes:
 
 
-During development of hardware part of met with real tasks - documentation analyses in order to choose pinout, interfaces and define them, but also met with real dangers, like ESD danger, or need of confirmation of voltage levels compatibility of components, which led to need of measurements with oscilloscope, where risks like ground loop await. 
+During development of hardware part of met with real tasks - documentation analysis in order to select pinout, interfaces and define them, define components requirements, built own custom optics transmission module and met with aspects involved in that.
+
+Also met with real dangers, like ESD danger, or need of confirmation of voltage levels compatibility of components, which led to need of measurements with oscilloscope, where risks like ground loop await. 
 
 These risks are well known for me, so I am equipped in anti-ESD grounding, both on desk and below, on the floor, in form of a special grounded carpet.
 
