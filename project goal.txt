@@ -15,6 +15,10 @@ Project notes:
 
 During development of hardware part of met with real tasks - documentation analysis in order to select pinout, interfaces and define them, define components requirements, built own custom optics transmission module and met with aspects involved in that.
 
+
+Designed schematics of parts of project, and its optical circuit, which may not be part of a daily work on that position but for such project is needed and shows complex fluence in many stages of such development.
+
+
 Also met with real dangers, like ESD danger, or need of confirmation of voltage levels compatibility of components, which led to need of measurements with oscilloscope, where risks like ground loop await. 
 
 These risks are well known for me, so I am equipped in anti-ESD grounding, both on desk and below, on the floor, in form of a special grounded carpet.
