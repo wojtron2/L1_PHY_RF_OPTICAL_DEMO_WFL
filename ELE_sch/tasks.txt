@@ -1,4 +1,11 @@
+//Schematics and other:
+
+create schematics symbol for CC1101 module nad 433 MHz modules,
+
+
+
 //Optical circuit tasks:
+
 design optical circuit schematics using fastest and currently available components //done
 build optical circuit pcb module  //done
 
@@ -8,6 +15,7 @@ build optical circuit pcb module  //done
 
 check led and input circuit frequency, bandwidth, rise, fall time and shape of frames with oscilloscope,
 in order to drive and test it write app to generate stable cycle clock generator signal,
+
 
 //CC1101 RF modules tasks:
 
