@@ -1,13 +1,13 @@
 //Schematics and other:
 
-create schematics symbol for CC1101 module nad 433 MHz modules,
+create schematics symbol for CC1101 module and 433 MHz modules,
 
 
 
 //Optical circuit tasks:
 
-design optical circuit schematics using fastest and currently available components //done
-build optical circuit pcb module  //done
+design optical circuit schematics using fastest and currently available components, //done
+build optical circuit pcb module, 	//done
 
 
 
@@ -19,22 +19,31 @@ in order to drive and test it write app to generate stable cycle clock generator
 
 //CC1101 RF modules tasks:
 
-define CC1101 pinout,
-define CC1101 configuration settings,
-apply  CC1101 settings,
-test   CC1101 as RX and TX,
+define CC1101 modules pinout,			//done
+define CC1101 modules pinout with ESP32,	//done
+define CC1101 modules pinout with STM32,	//done
+define CC1101 modules voltages,			//done
+define CC1101 modules configuration settings,
+apply  CC1101 modules settings,
+test   CC1101 modules as RX and TX,
 
 //433 MHz modules:
-
+define 433 MHz modules pinout,			//done
+define 433 MHz modules pinout with ESP32,	//done
+define 433 MHz modules pinout with STM32,	//done
+define 433 MHz modules voltages,		//done
+test   433 MHZ modules,
 
 
 //microcontroller carrier PCBs tasks:
 
 place power input connector,
-palce power supply,
-place 2.54 uC slot headers,
+place power supply,
+place 2.54 uC slot headers,			//done
 place CC1101 module slot headers,
 place 433 MHz module slot headers,
+connect modules and power supplies headers,
+check power voltages and connections,
 
 
 level converter:

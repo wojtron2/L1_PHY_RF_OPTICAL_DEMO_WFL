@@ -1,0 +1,9 @@
+Pin 	Module Signal	STM32 Pin
+1	GND		GND
+2	VCC		3V3
+3	GDO0		PB0
+4	CSN		PA4
+5	SCK		PA5
+6	MOSI		PA7
+7	MISO		PA6
+8	GDO2		PB1
