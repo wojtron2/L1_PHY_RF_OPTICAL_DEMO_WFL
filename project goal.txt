@@ -1,22 +1,34 @@
-Project goal
+Project goal:
 
 
-The goal of the project is to manually, first person experience whole range of stack involved in application position.
+The goal of the project is to manually experience and walk through whole range of stack involved in position.
+
+Nothing helps refresh topics closer knowledge and brings more realistic challenges, even if resembled at small scale and advancement, than doing exact tasks.
 
 
-
-Nothing helps refresh topics and knowledge, brings more realistic challenges, even if resembled at small scale and level of technology, than doing exact tasks from daily basis.
-
-
-Design of hardware with use of currently available at hand parts allows fastest possible and real contact with part of awaiting challenges, allowing further development of next parts, moving to more serious tasks in software area, with reasonable control of environment and possibilities to face with real flaws of such job, in the end allowing to test events and meet situations happening in real development process.
-
+Design of hardware from currently available at hand parts allows fastest possible and real contact with awaiting challenges, allowing further development of project, moving to more serious tasks in software area, with reasonable control of environment and possibilities to face with real flaws of such job, in the end allowing to test events happening in real development process.
 
 
 
-For now preparation of hardware to proceed with software side is ready.
+Project notes:
+
+
+During development of hardware part of met with real tasks - documentation analyses in order to choose pinout, interfaces and define them, but also met with real dangers, like ESD danger, or need of confirmation of voltage levels compatibility of components, which led to need of measurements with oscilloscope, where risks like ground loop await. 
+
+These risks are well known for me, so I am equipped in anti-ESD grounding, both on desk and below, on the floor, in form of a special grounded carpet.
+
+Oscilloscope I have uses USB both for power and data, but my USB hub is fully isolated from PC with ADUM3160 and powered by external isolated power supply, same as my lab power supply, which powers the project itself.
 
 
 
-As for further steps there is plan to think about, plan, then implement algorithms used in real cases, using different hardware, resembling actual development, execute and analyse measurements, analyse statistics and relations between parts of system, prepare automated process of tests of any possible with currently available on hand hardware events, modulations, in the end achieving ready platform to closely imitate incoming challenges and topics, interconnecting parts of system, while providing data for summary of whole process, in a form easily available to share.
+(project in progress)
+
+
+For now preparation of hardware to proceed with software side is almost ready.
+
+
+As for further steps there is plan to think about, plan, then implement algorithms used in real cases, using different hardware, resembling actual development, execute and analyse measurements, analyse statistics and relations between parts of system, prepare automated process of tests of any possible with currently available on hand hardware events, modulations, in the end achieving ready platform to closely imitate incoming challenges and topics, interconnecting parts of system, while providing data for summary of whole process, in a form ready to share.
+
+
 
 
