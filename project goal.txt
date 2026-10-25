@@ -1,0 +1,22 @@
+Project goal
+
+
+The goal of the project is to manually, first person experience whole range of stack involved in application position.
+
+
+
+Nothing helps refresh topics and knowledge, brings more realistic challenges, even if resembled at small scale and level of technology, than doing exact tasks from daily basis.
+
+
+Design of hardware with use of currently available at hand parts allows fastest possible and real contact with part of awaiting challenges, allowing further development of next parts, moving to more serious tasks in software area, with reasonable control of environment and possibilities to face with real flaws of such job, in the end allowing to test events and meet situations happening in real development process.
+
+
+
+
+For now preparation of hardware to proceed with software side is ready.
+
+
+
+As for further steps there is plan to think about, plan, then implement algorithms used in real cases, using different hardware, resembling actual development, execute and analyse measurements, analyse statistics and relations between parts of system, prepare automated process of tests of any possible with currently available on hand hardware events, modulations, in the end achieving ready platform to closely imitate incoming challenges and topics, interconnecting parts of system, while providing data for summary of whole process, in a form easily available to share.
+
+
