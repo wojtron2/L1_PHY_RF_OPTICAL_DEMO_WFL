@@ -5,7 +5,7 @@
 	(uuid "632ef302-fea4-45de-b664-d90594da965b")
 	(paper "A3")
 	(title_block
-		(title "RF transmission path circuits")
+		(title "STM32H743 carrier with RF transmission path circuits")
 		(date "2026-10-25")
 		(rev "v1.0")
 		(company "by Wojciech Flis ®")
@@ -2651,6 +2651,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.958 162.56) (xy 304.8 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b66656-cda4-4823-a645-d4c6c6ca2246")
+	)
+	(wire
+		(pts
 			(xy 215.138 218.186) (xy 237.744 218.186)
 		)
 		(stroke
@@ -2658,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "24105394-8859-4445-bd9a-0b04953854ce")
-	)
-	(wire
-		(pts
-			(xy 298.704 162.56) (xy 304.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a657d8a-ebc2-4b98-bbdb-1d08829a30cb")
 	)
 	(wire
 		(pts
@@ -3421,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.958 161.544) (xy 298.958 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2961349-5ec3-4a28-a08c-3869769820cb")
+	)
+	(wire
+		(pts
 			(xy 189.738 218.694) (xy 189.738 225.552)
 		)
 		(stroke
@@ -3511,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.748 190.5) (xy 304.8 190.5)
+			(xy 270.002 190.5) (xy 304.8 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3538,16 +3548,6 @@
 			(type default)
 		)
 		(uuid "fc31a883-ecd1-406a-aa87-8953d6a68149")
-	)
-	(label "STM32_SPI1_MISO(PA6)"
-		(at 241.808 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "021ca5e0-8469-468b-984c-de6952b35c2e")
 	)
 	(label "STM32_COMP2_INM(PE7)"
 		(at 370.332 180.34 180)
@@ -3588,6 +3588,16 @@
 			(justify left bottom)
 		)
 		(uuid "5405ffdd-9c72-4c37-9266-1b4a358186b1")
+	)
+	(label "STM32_SPI1_MOSI(PA7)"
+		(at 241.808 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ed6ccbe-3cba-4672-a5c7-08d9f045df38")
 	)
 	(label "STM32_CC1101_GDO0(PB0)"
 		(at 162.052 177.8 0)
@@ -3649,16 +3659,6 @@
 		)
 		(uuid "8e04a276-cbdc-4c7a-8628-65506e41786d")
 	)
-	(label "STM32_SPI1_MOSI(PA7)"
-		(at 241.808 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "902fb829-0efa-4c12-ab2c-ff3001d8ba54")
-	)
 	(label "STM32_COMP2_OUT(PE8)"
 		(at 370.332 175.26 180)
 		(effects
@@ -3698,6 +3698,16 @@
 			(justify right bottom)
 		)
 		(uuid "bac6c505-b5d9-43cc-beff-730e2ff8194b")
+	)
+	(label "STM32_SPI1_MISO(PA6)"
+		(at 241.808 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c25d4af2-f8b6-4080-8ed0-cfae8746d0db")
 	)
 	(label "433_STM_DATA_HV"
 		(at 166.37 113.284 0)
@@ -3740,7 +3750,7 @@
 		(uuid "e400973b-d567-4e41-89ea-ba95db31c3cf")
 	)
 	(label "STM32_CC1101_GDO0(PB0)"
-		(at 269.748 190.5 0)
+		(at 270.002 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6643,83 +6653,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 298.704 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bad8ecbd-9552-462d-97f4-454f808b332c")
-		(property "Reference" "#PWR030"
-			(at 298.704 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_STM32"
-			(at 298.196 159.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.704 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.704 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 298.704 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fba45e4-353d-44ff-acf3-54095fa63d9b")
-		)
-		(instances
-			(project "L1_RF_OPTICAL_tests_sch"
-				(path "/8a635b1b-9d9a-4020-b936-45919ee57615/ccc22324-4fc6-46a7-86c7-31621d9abc7c"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.056 159.512 0)
 		(mirror y)
@@ -6947,6 +6880,83 @@
 			(project "L1_RF_OPTICAL_tests_sch"
 				(path "/8a635b1b-9d9a-4020-b936-45919ee57615/ccc22324-4fc6-46a7-86c7-31621d9abc7c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 298.958 161.544 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be7d8677-c011-4389-bfcc-fd9753c613af")
+		(property "Reference" "#PWR030"
+			(at 298.958 165.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 298.958 157.734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.958 161.544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.958 161.544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 298.958 161.544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b65969ab-dc87-4d85-8307-541925542acf")
+		)
+		(instances
+			(project "L1_RF_OPTICAL_tests_sch"
+				(path "/8a635b1b-9d9a-4020-b936-45919ee57615/ccc22324-4fc6-46a7-86c7-31621d9abc7c"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

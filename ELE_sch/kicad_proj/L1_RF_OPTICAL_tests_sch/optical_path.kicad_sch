@@ -1115,6 +1115,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.014 83.058) (xy 133.35 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9765c3-7ca0-49fc-83aa-8756ba288514")
+	)
+	(wire
+		(pts
 			(xy 129.032 56.642) (xy 129.032 61.976)
 		)
 		(stroke
@@ -1155,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.032 69.596) (xy 129.032 76.454)
+			(xy 129.032 69.596) (xy 129.032 75.946)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.032 76.454) (xy 115.316 76.454)
+			(xy 129.032 75.946) (xy 108.966 75.946)
 		)
 		(stroke
 			(width 0)
@@ -1203,8 +1213,18 @@
 		)
 		(uuid "698e8f75-97fb-4fc3-a3dd-31c7fc122ce3")
 	)
-	(label "ESP32_GPIO"
-		(at 115.316 76.454 0)
+	(label "TO_ESP32_OPTIC_TX"
+		(at 112.014 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74c9c260-8b18-4bce-8790-5ae2aa0a77e1")
+	)
+	(label "TO_ESP32_OPTIC_TX"
+		(at 108.966 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1222,6 +1242,30 @@
 			(justify left bottom)
 		)
 		(uuid "e76e30d2-312a-4205-9ee7-0c6261c52a6c")
+	)
+	(global_label "ESP32_OPTIC_TX_EXT"
+		(shape input)
+		(at 133.35 83.058 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aba61657-2612-49ef-a769-f1d573915815")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.2316 83.058 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "PD_SIG_STM32_EXT"
 		(shape input)
