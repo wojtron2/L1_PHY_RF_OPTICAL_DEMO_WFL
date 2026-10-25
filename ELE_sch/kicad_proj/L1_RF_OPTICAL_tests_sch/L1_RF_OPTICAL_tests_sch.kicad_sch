@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Optical transmission path circuits")
-		(rev "v1.0")
+		(rev "v1.0b")
 		(company "by Wojciech Flis ®")
 	)
 	(lib_symbols)
