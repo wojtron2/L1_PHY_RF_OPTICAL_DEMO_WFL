@@ -1,0 +1,41 @@
+use of internal COMP1 for fast measure of BPW34S signal using comparator unit
+
+STM32 PIN PB0
+COMP1_INP
+
+
+STM32 PIN PB1
+COMP1_INM
+
+STM32 PIN PC5
+optional COMP1_OUT for oscilloscope comparisons
+
+
+
+stm32 configuration
+
+Parameter		Setting
+COMP1			Enabled
+Non-Inverting Input (+)	IO1 — PB0
+Inverting Input (−)	IO1 — PB1
+Power Mode		High Speed
+Hysteresis		Low (for beginning)
+Output Polarity		Non-Inverted
+Blanking Source		None
+Window Mode		Disabled
+Trigger Mode		None — no interrupts
+
+
+
+pins configuration:
+Physical Pin	GPIO	Function / CubeMX Signal	Connected Device
+34	PB0	COMP1_INP	BPW34S PD_SIG
+35	PB1	COMP1_INM	Comparator VTH
+33	PC5	COMP1_OUT (AF13)	Optional oscilloscope output
+22	PA0	TIM2_CH1 (AF1)	433 MHz Receiver DATA
+28	PA4	GPIO_Output	CC1101 CSn
+29	PA5	SPI1_SCK (AF5)	CC1101 SCK
+30	PA6	SPI1_MISO (AF5)	CC1101 SO / MISO
+31	PA7	SPI1_MOSI (AF5)	CC1101 SI / MOSI
+46	PB10	GPIO_EXTI10	CC1101 GDO0
+47	PB11	GPIO_EXTI11	CC1101 GDO2

@@ -1,25 +1,43 @@
-tasks:
-design optical input circuit schematics
-
-design transparent red led high speed driving circuit
-
-
-
-first tests:
-
-check laser and input circuit bandwidth and frequency with oscilloscope
-
-in order to drive and test it write app to generate stable cycle clock generator signal
+//Optical circuit tasks:
+design optical circuit schematics using fastest and currently available components //done
+build optical circuit pcb module  //done
 
 
 
+//Optical circuit tests:
+
+check led and input circuit frequency, bandwidth, rise, fall time and shape of frames with oscilloscope,
+in order to drive and test it write app to generate stable cycle clock generator signal,
+
+//CC1101 RF modules tasks:
+
+define CC1101 pinout,
+define CC1101 configuration settings,
+apply  CC1101 settings,
+test   CC1101 as RX and TX,
+
+//433 MHz modules:
 
 
+
+//microcontroller carrier PCBs tasks:
+
+place power input connector,
+palce power supply,
+place 2.54 uC slot headers,
+place CC1101 module slot headers,
+place 433 MHz module slot headers,
+
+
+level converter:
+(for receiver is a must and prob. needed for transmitter)
+
+place its slot headers,
 
 
 
 
 
 ///old
-design laser driving circuit
-design laser holder and hold in place optical transmission path, consider safe cover from laser
+design laser driving circuit,
+design laser holder and hold in place optical transmission path, consider safe cover from laser,

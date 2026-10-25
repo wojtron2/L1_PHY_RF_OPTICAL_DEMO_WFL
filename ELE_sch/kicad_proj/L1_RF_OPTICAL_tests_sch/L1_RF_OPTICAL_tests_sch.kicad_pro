@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "8a635b1b-9d9a-4020-b936-45919ee57615"
       }
     ],
-    "used_designators": "D1,U1",
+    "used_designators": "#PWR1-7,D1-3,U1-2,R1-4,C1-2",
     "variants": []
   },
   "sheets": [
@@ -426,11 +426,11 @@
     ],
     [
       "433ebdd7-cb04-40a9-928a-c1b550bb0351",
-      "Optical receiver"
+      "Optical transmission path"
     ],
     [
-      "97c22b27-0f33-4417-bc04-8908563f833d",
-      "Optical laser transmitter"
+      "ccc22324-4fc6-46a7-86c7-31621d9abc7c",
+      "RF transmission path"
     ]
   ],
   "text_variables": {},

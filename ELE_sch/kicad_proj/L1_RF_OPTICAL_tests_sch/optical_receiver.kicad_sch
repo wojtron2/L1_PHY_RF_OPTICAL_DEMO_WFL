@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "27dc8736-fedb-4958-bbdd-4b2c553bfc32")
+	(uuid "632ef302-fea4-45de-b664-d90594da965b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP601-xP"
@@ -566,7 +566,7 @@
 		(fields_autoplaced yes)
 		(uuid "e113aa5b-9a4b-4e60-9151-affca61821ed")
 		(property "Reference" "U1"
-			(at 159.512 84.2578 0)
+			(at 160.02 84.2578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -575,8 +575,8 @@
 				)
 			)
 		)
-		(property "Value" "MCP601-xP"
-			(at 159.512 86.7978 0)
+		(property "Value" "MCP601-IP"
+			(at 160.02 86.7978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

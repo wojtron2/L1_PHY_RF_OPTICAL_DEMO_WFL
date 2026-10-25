@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "632ef302-fea4-45de-b664-d90594da965b")
+	(paper "A4")
+	(title_block
+		(title "RF transmission path circuits")
+		(date "2026-10-25")
+		(rev "v1.0")
+		(company "by Wojciech Flis ®")
+	)
+	(lib_symbols)
+)
