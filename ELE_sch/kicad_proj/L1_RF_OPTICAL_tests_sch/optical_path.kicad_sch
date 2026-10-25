@@ -1021,7 +1021,7 @@
 		)
 		(uuid "e143741f-0ab9-475f-b3bd-31d879206b9e")
 	)
-	(text "PD_SIG\nSTM32_PB0\nCOMP1_INP"
+	(text "PD_SIG\nSTM32_PE9\nCOMP2_INP"
 		(exclude_from_sim no)
 		(at 148.844 110.998 0)
 		(effects
