@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "632ef302-fea4-45de-b664-d90594da965b")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "Optical transmission path circuits")
 		(date "2026-10-25")
@@ -978,8 +978,8 @@
 		)
 	)
 	(rectangle
-		(start 106.426 82.042)
-		(end 158.75 134.112)
+		(start 52.578 34.036)
+		(end 104.902 86.106)
 		(stroke
 			(width 0)
 			(type default)
@@ -990,8 +990,8 @@
 		(uuid "9be94d48-094a-4e0f-9086-1cca120652e9")
 	)
 	(rectangle
-		(start 160.528 82.042)
-		(end 211.582 134.112)
+		(start 106.68 34.036)
+		(end 157.734 86.106)
 		(stroke
 			(width 0)
 			(type default)
@@ -1003,7 +1003,7 @@
 	)
 	(text "OPTICAL CIRCUIT TRANSMITTER SIDE - FROM ESP32"
 		(exclude_from_sim no)
-		(at 185.928 85.598 0)
+		(at 132.08 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 	)
 	(text "OPTICAL CIRCUIT RECEIVER SIDE - TO STM32"
 		(exclude_from_sim no)
-		(at 131.826 85.598 0)
+		(at 77.978 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 	)
 	(text "PD_SIG\nSTM32_PE9\nCOMP2_INP"
 		(exclude_from_sim no)
-		(at 148.844 110.998 0)
+		(at 94.996 62.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1032,20 +1032,20 @@
 		(uuid "e915c86a-16f4-4349-9a5b-ba239d4ed0aa")
 	)
 	(junction
-		(at 139.446 107.188)
+		(at 85.598 59.182)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56fb5639-5ff5-43fb-bd1f-f4493cd5a260")
 	)
 	(junction
-		(at 124.206 93.726)
+		(at 70.358 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c8cff7-9fe5-4560-801b-a3ec39ae3f12")
 	)
 	(wire
 		(pts
-			(xy 124.206 111.252) (xy 124.206 121.158)
+			(xy 70.358 63.246) (xy 70.358 73.152)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 93.726) (xy 124.206 103.632)
+			(xy 70.358 45.72) (xy 70.358 55.626)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 94.234) (xy 198.12 121.92)
+			(xy 144.272 46.228) (xy 144.272 73.914)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 94.234) (xy 198.12 94.234)
+			(xy 129.032 46.228) (xy 144.272 46.228)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 93.726) (xy 124.206 93.726)
+			(xy 85.598 45.72) (xy 70.358 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 96.52) (xy 139.446 93.726)
+			(xy 85.598 48.514) (xy 85.598 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1105,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 118.872) (xy 139.446 121.412)
+			(xy 85.598 70.866) (xy 85.598 73.406)
 		)
 		(stroke
 			(width 0)
@@ -1115,7 +1115,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.648) (xy 182.88 109.982)
+			(xy 129.032 56.642) (xy 129.032 61.976)
 		)
 		(stroke
 			(width 0)
@@ -1125,7 +1125,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 104.14) (xy 139.446 107.188)
+			(xy 85.598 56.134) (xy 85.598 59.182)
 		)
 		(stroke
 			(width 0)
@@ -1135,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 97.028) (xy 182.88 94.234)
+			(xy 129.032 49.022) (xy 129.032 46.228)
 		)
 		(stroke
 			(width 0)
@@ -1145,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 107.188) (xy 157.734 107.188)
+			(xy 85.598 59.182) (xy 103.886 59.182)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 117.602) (xy 182.88 124.46)
+			(xy 129.032 69.596) (xy 129.032 76.454)
 		)
 		(stroke
 			(width 0)
@@ -1165,7 +1165,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 131.318) (xy 133.096 131.318)
+			(xy 57.912 83.312) (xy 79.248 83.312)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 124.46) (xy 169.164 124.46)
+			(xy 129.032 76.454) (xy 115.316 76.454)
 		)
 		(stroke
 			(width 0)
@@ -1185,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.446 107.188) (xy 139.446 111.252)
+			(xy 85.598 59.182) (xy 85.598 63.246)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1194,7 @@
 		(uuid "e9782c8b-fb77-4061-b07c-439b6743f1cf")
 	)
 	(label "TO_PD_SIG_STM32"
-		(at 157.734 107.188 180)
+		(at 103.886 59.182 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1204,7 +1204,7 @@
 		(uuid "698e8f75-97fb-4fc3-a3dd-31c7fc122ce3")
 	)
 	(label "ESP32_GPIO"
-		(at 169.164 124.46 0)
+		(at 115.316 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,7 +1214,7 @@
 		(uuid "d43519e7-3f94-4d0a-aac2-6d0d5eaa3078")
 	)
 	(label "TO_PD_SIG_STM32"
-		(at 111.76 131.318 0)
+		(at 57.912 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1225,7 +1225,7 @@
 	)
 	(global_label "PD_SIG_STM32_EXT"
 		(shape input)
-		(at 133.096 131.318 0)
+		(at 79.248 83.312 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1235,7 +1235,7 @@
 		)
 		(uuid "fa83d2d9-90a1-43c0-ad60-c7d804b1d2d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9819 131.318 0)
+			(at 100.1339 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1249,7 +1249,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 121.92 0)
+		(at 144.272 73.914 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1259,7 +1259,7 @@
 		(dnp no)
 		(uuid "00da3e60-c778-4e89-b595-4902fbca25ac")
 		(property "Reference" "#PWR04"
-			(at 198.12 128.27 0)
+			(at 144.272 80.264 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Value" "GND_ESP32"
-			(at 198.12 126.238 0)
+			(at 144.272 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1280,7 +1280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 121.92 0)
+			(at 144.272 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,7 +1291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 121.92 0)
+			(at 144.272 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1302,7 +1302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 121.92 0)
+			(at 144.272 73.914 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1326,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.206 93.726 0)
+		(at 70.358 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1337,7 +1337,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f33e5fc-db0d-4a12-bdaa-77a6b0889806")
 		(property "Reference" "#PWR03"
-			(at 124.206 97.536 0)
+			(at 70.358 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(property "Value" "+3V3_STM32"
-			(at 124.206 88.9 0)
+			(at 70.358 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.206 93.726 0)
+			(at 70.358 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.206 93.726 0)
+			(at 70.358 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.206 93.726 0)
+			(at 70.358 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1404,7 +1404,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.206 121.158 0)
+		(at 70.358 73.152 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1414,7 +1414,7 @@
 		(dnp no)
 		(uuid "1eac9cf6-4878-4576-a96a-787a282c5754")
 		(property "Reference" "#PWR01"
-			(at 124.206 127.508 0)
+			(at 70.358 79.502 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Value" "GND_STM32"
-			(at 124.206 125.476 0)
+			(at 70.358 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.206 121.158 0)
+			(at 70.358 73.152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1446,7 +1446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.206 121.158 0)
+			(at 70.358 73.152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1457,7 +1457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.206 121.158 0)
+			(at 70.358 73.152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.446 121.412 0)
+		(at 85.598 73.406 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1491,7 +1491,7 @@
 		(dnp no)
 		(uuid "4038e339-df4b-4e9e-823c-e4aa8628e059")
 		(property "Reference" "#PWR02"
-			(at 139.446 127.762 0)
+			(at 85.598 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +1502,7 @@
 			)
 		)
 		(property "Value" "GND_STM32"
-			(at 139.446 125.73 0)
+			(at 85.598 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1512,7 +1512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.446 121.412 0)
+			(at 85.598 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.446 121.412 0)
+			(at 85.598 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.446 121.412 0)
+			(at 85.598 73.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1558,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:BPW34-SMD")
-		(at 139.446 101.6 270)
+		(at 85.598 53.594 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1569,7 +1569,7 @@
 		(fields_autoplaced yes)
 		(uuid "54a51f09-73e2-43aa-8c3a-d3849777f480")
 		(property "Reference" "D1"
-			(at 143.764 99.4028 90)
+			(at 89.916 51.3968 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1580,7 +1580,7 @@
 			)
 		)
 		(property "Value" "BPW34S"
-			(at 143.764 101.9428 90)
+			(at 89.916 53.9368 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1591,7 +1591,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Osram_BPW34S-SMD"
-			(at 143.891 101.6 0)
+			(at 90.043 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1602,7 +1602,7 @@
 			)
 		)
 		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5488319/BPW%2034%20S_EN.pdf"
-			(at 139.446 100.33 0)
+			(at 85.598 52.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 			)
 		)
 		(property "Description" "Silicon PIN Photodiode, Area 2.65x2.65mm"
-			(at 139.446 101.6 0)
+			(at 85.598 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +1640,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.446 115.062 0)
+		(at 85.598 67.056 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1651,7 +1651,7 @@
 		(dnp no)
 		(uuid "702d52f0-b7b2-453c-ab63-60312c124d3c")
 		(property "Reference" "R1"
-			(at 136.906 113.7919 0)
+			(at 83.058 65.7859 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1662,7 +1662,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 136.906 116.3319 0)
+			(at 83.058 68.3259 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1673,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.224 115.062 90)
+			(at 87.376 67.056 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.446 115.062 0)
+			(at 85.598 67.056 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +1695,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.446 115.062 0)
+			(at 85.598 67.056 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +1722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 113.792 0)
+		(at 129.032 65.786 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1733,7 +1733,7 @@
 		(fields_autoplaced yes)
 		(uuid "7afe651b-6b36-4472-8820-e75572bed661")
 		(property "Reference" "R2"
-			(at 189.23 113.792 90)
+			(at 135.382 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1743,7 +1743,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 186.69 113.792 90)
+			(at 132.842 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1753,7 +1753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.102 113.792 90)
+			(at 127.254 65.786 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 113.792 0)
+			(at 129.032 65.786 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 182.88 113.792 0)
+			(at 129.032 65.786 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +1802,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 124.206 107.442 0)
+		(at 70.358 59.436 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1813,7 +1813,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba1fba7b-b9b5-489e-a90b-3161da1dfa14")
 		(property "Reference" "C1"
-			(at 128.27 106.1719 0)
+			(at 74.422 58.1659 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 128.27 108.7119 0)
+			(at 74.422 60.7059 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1835,7 +1835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.1712 111.252 0)
+			(at 71.3232 63.246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.206 107.442 0)
+			(at 70.358 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,7 +1857,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.206 107.442 0)
+			(at 70.358 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,7 +1884,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 182.88 100.838 270)
+		(at 129.032 52.832 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1895,7 +1895,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7d90892-e827-4911-bcbf-43c162d8d8db")
 		(property "Reference" "D3"
-			(at 189.23 99.2505 0)
+			(at 135.382 51.2445 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1905,7 +1905,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 186.69 99.2505 0)
+			(at 132.842 51.2445 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1915,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 100.838 0)
+			(at 129.032 52.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 100.838 0)
+			(at 129.032 52.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,7 +1937,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 100.838 0)
+			(at 129.032 52.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,7 +1948,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 100.838 0)
+			(at 129.032 52.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
