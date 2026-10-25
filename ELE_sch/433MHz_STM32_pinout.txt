@@ -1,0 +1,5 @@
+Pin 	Module Signal	STM32 Pin
+1	VCC		5V
+2	DATA		PC6
+3	DATA		NC
+4	GND		GND

@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 101.6 76.2)
+		(at 76.2 76.2)
 		(size 25.4 25.654)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "433ebdd7-cb04-40a9-928a-c1b550bb0351")
 		(property "Sheetname" "Optical transmission path"
-			(at 101.6 75.4884 0)
+			(at 76.2 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "optical_path.kicad_sch"
-			(at 101.6 102.4386 0)
+			(at 76.2 102.4386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,7 +57,64 @@
 		)
 	)
 	(sheet
-		(at 152.4 76.2)
+		(at 177.8 76.2)
+		(size 25.4 25.654)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "868b9e22-a41d-4bc9-a72c-487192f99730")
+		(property "Sheetname" "ESP32 carrier board"
+			(at 177.8 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32_carrier_board.kicad_sch"
+			(at 177.8 102.4386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 177.8 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "L1_RF_OPTICAL_tests_sch"
+				(path "/8a635b1b-9d9a-4020-b936-45919ee57615"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
 		(size 25.4 25.654)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,8 +129,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ccc22324-4fc6-46a7-86c7-31621d9abc7c")
-		(property "Sheetname" "RF transmission path"
-			(at 152.4 75.4884 0)
+		(property "Sheetname" "STM32 carrier board"
+			(at 127 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -83,8 +140,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RF_path.kicad_sch"
-			(at 152.4 102.4386 0)
+		(property "Sheetfile" "STM32_carrier_board.kicad_sch"
+			(at 127 102.4386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -95,7 +152,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 152.4 76.2 0)
+			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

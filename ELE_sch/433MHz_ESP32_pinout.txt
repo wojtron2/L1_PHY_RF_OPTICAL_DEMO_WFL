@@ -1,0 +1,4 @@
+Pin 	Module Signal	ESP32 Pin
+1	DATA		GPIO25
+2	VCC		5V
+3	GND		GND

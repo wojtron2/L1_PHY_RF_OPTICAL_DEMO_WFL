@@ -416,7 +416,7 @@
         "uuid": "8a635b1b-9d9a-4020-b936-45919ee57615"
       }
     ],
-    "used_designators": "#PWR1-7,D1-3,U1-2,R1-4,C1-2",
+    "used_designators": "#PWR1-31,D1-3,U1-8,J1-3,R1-6,C1-15",
     "variants": []
   },
   "sheets": [
@@ -430,7 +430,11 @@
     ],
     [
       "ccc22324-4fc6-46a7-86c7-31621d9abc7c",
-      "RF transmission path"
+      "STM32 carrier board"
+    ],
+    [
+      "868b9e22-a41d-4bc9-a72c-487192f99730",
+      "ESP32 carrier board"
     ]
   ],
   "text_variables": {},
