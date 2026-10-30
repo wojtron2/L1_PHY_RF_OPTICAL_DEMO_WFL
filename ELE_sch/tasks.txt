@@ -47,9 +47,11 @@ check power voltages and connections,
 
 
 Oscilloscope measurements:
-check oscilloscope ground currents			//done
-set stable driver for oscilloscope (orig made BSOD)	//done
-measure DATA of 433MHz receiver = 3.83V			//done
+check oscilloscope ground currents				//done
+set stable driver for oscilloscope (orig made BSOD)		//done
+measure DATA of 433MHz receiver = 3.83V				//done
+check frame shape						//done
+check voltages after lvl converter using different resistors	//done
 
 
 
