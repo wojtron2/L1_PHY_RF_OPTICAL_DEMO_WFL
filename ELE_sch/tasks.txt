@@ -46,6 +46,17 @@ connect modules and power supplies headers,
 check power voltages and connections,
 
 
+Oscilloscope measurements:
+check oscilloscope ground currents			//done
+set stable driver for oscilloscope (orig made BSOD)	//done
+measure DATA of 433MHz receiver = 3.83V			//done
+
+
+
+
+check 433 MHz data pins voltages
+
+
 level converter:
 (for receiver is a must and prob. needed for transmitter)
 
