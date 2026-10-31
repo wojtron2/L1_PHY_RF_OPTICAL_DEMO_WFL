@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32H743 carrier with RF transmission path circuits")
 		(date "2026-10-25")
-		(rev "v1.0b")
+		(rev "v1.0c")
 		(company "by Wojciech Flis ®")
 	)
 	(lib_symbols
